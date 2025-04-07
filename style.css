@@ -64,7 +64,18 @@ body{
     &:hover{
         background-color: #D3F1DF;
     }
+    &:disabled {
+        background-color: #f0f0f0;
+        color: #999;
+        border-color: #ddd;
+        cursor: not-allowed;
+        
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
 }
+
 .start_panel{
     width: 100%;
     height: 80%;
@@ -85,7 +96,7 @@ body{
     user-select: none;
 }
 .question_answers{
-    width: 80%;
+    width: 90%;
     height: 80%;
     display: flex;
     justify-content: center;
@@ -100,6 +111,14 @@ body{
     padding: 0;
     margin: 10px;
 }
+.answer_input{
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+    padding: 0px 10px;
+    margin: 10px;
+    font-size: 20px;
+}
 .answer{
     padding: 0;
     margin: 20px;
@@ -112,4 +131,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: start;
+}
+.modal{
+    width: 950px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    user-select: none;
 }
