@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b2ccbe;
+    background-color: #3674B5;
 }
 .container{
     width: 950px;
@@ -56,13 +56,13 @@ body{
     padding: 10px 30px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: #A1E3F9;
     border: 1px solid #333;
     color: #333;
     transition: 200ms;
     cursor: pointer;
     &:hover{
-        background-color: #D3F1DF;
+        background-color: #D1F8EF;
     }
     &:disabled {
         background-color: #f0f0f0;
@@ -125,12 +125,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.radio_answers{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
 }
 .modal{
     width: 950px;
